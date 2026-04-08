@@ -1,0 +1,523 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Soap Collection — Beauty Vault</title>
+    <link rel="stylesheet" href="soap.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;1,300;1,400&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <div class="bg-image"></div>
+    <div class="bg-overlay"></div>
+    
+    <header>
+        <nav class="navbar">
+            <div class="logo">Beauty Vault</div>
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="product.html">Products</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <div class="top-products-layer">
+        <div class="products-header-nav">
+            
+            <a href="productsets.html" class="product-header-item">
+                <div class="header-item-image">
+                    <img src="images/bvpink2.png" alt="Product Sets">
+                </div>
+                <span class="header-item-name">Sets</span>
+            </a>
+
+            <a href="lotion.html" class="product-header-item">
+                <div class="header-item-image">
+                    <img src="images/luminalotion.jpg" alt="Lotion">
+                </div>
+                <span class="header-item-name">Lotion</span>
+            </a>
+
+            <a href="cream.html" class="product-header-item">
+                <div class="header-item-image">
+                    <img src="images/luminacream.jpg" alt="Cream">
+                </div>
+                <span class="header-item-name">Cream</span>
+            </a>
+
+            <a href="toner.html" class="product-header-item">
+                <div class="header-item-image">
+                    <img src="images/tonertwo.jpg" alt="Toner">
+                </div>
+                <span class="header-item-name">Toner</span>
+            </a>
+
+            <a href="serum.html" class="product-header-item">
+                <div class="header-item-image">
+                    <img src="images/serum1.jpg" alt="Serum">
+                </div>
+                <span class="header-item-name">Serum</span>
+            </a>
+
+            <a href="soap.html" class="product-header-item">
+                <div class="header-item-image">
+                    <img src="images/snailwhipp2.jpg" alt="Soap">
+                </div>
+                <span class="header-item-name">Soap</span>
+            </a>
+
+            <a href="capsules.html" class="product-header-item">
+                <div class="header-item-image">
+                    <img src="images/capsulesthree.jpg" alt="Capsules">
+                </div>
+                <span class="header-item-name">Capsules</span>
+            </a>
+
+            <a href="sunscreen.html" class="product-header-item">
+                <div class="header-item-image">
+                    <img src="images/sunscreenthree.jpg" alt="Sunscreen">
+                </div>
+                <span class="header-item-name">Sunscreen</span>
+            </a>
+
+            <a href="luminaglow.html" class="product-header-item">
+                <div class="header-item-image">
+                    <img src="images/luminaglow1.jpg" alt="Powder Drink">
+                </div>
+                <span class="header-item-name">Drink</span>
+            </a>
+
+        </div>
+    </div>
+    <section class="hero">
+        <h1>Soap</h1>
+        <div class="section-divider"></div>
+        <p></p>
+    </section>
+
+    <main class="container">
+        
+        <div class="product-grid">
+            
+            <article class="product-card">
+                <div class="card-image">
+                    <img src="images/soapo1.png" alt="Beauty Vault Orange Soap">
+                    <div class="card-overlay">
+                        <button class="btn-quick-view" onclick="openModal('orange-soap')">
+                            <i class="fas fa-eye"></i> Quick View
+                        </button>
+                    </div>
+                </div>
+                <div class="card-info">
+                    <h3>Beauty Vault Orange Soap</h3>
+                    <p class="card-subtitle">Kojic Acid Brightening</p>
+                    <span class="card-price">₱ 95.00</span>
+                    <div class="card-actions">
+                        <button class="btn-add-cart" onclick="addToCart('Beauty Vault Orange Soap', 95)">
+                            <i class="fas fa-shopping-bag"></i> Add to Cart
+                        </button>
+                        <button class="btn-buy-now" onclick="buyNow('Beauty Vault Orange Soap', 95)">
+                            Buy Now
+                        </button>
+                    </div>
+                </div>
+            </article>
+
+            <article class="product-card">
+                <div class="card-image">
+                    <img src="images/soap pink.jpg" alt="Beauty Vault Pink Soap">
+                    <div class="card-overlay">
+                        <button class="btn-quick-view" onclick="openModal('pink-soap')">
+                            <i class="fas fa-eye"></i> Quick View
+                        </button>
+                    </div>
+                </div>
+                <div class="card-info">
+                    <h3>Beauty Vault Pink Soap</h3>
+                    <p class="card-subtitle">Maintenance Whitening</p>
+                    <span class="card-price">₱ 95.00</span>
+                    <div class="card-actions">
+                        <button class="btn-add-cart" onclick="addToCart('Beauty Vault Pink Soap', 95)">
+                            <i class="fas fa-shopping-bag"></i> Add to Cart
+                        </button>
+                        <button class="btn-buy-now" onclick="buyNow('Beauty Vault Pink Soap', 95)">
+                            Buy Now
+                        </button>
+                    </div>
+                </div>
+            </article>
+
+            <article class="product-card">
+                <div class="card-image">
+                    <img src="images/snail1.png" alt="Snail Whipp Lumina Bar Soap">
+                    <div class="card-overlay">
+                        <button class="btn-quick-view" onclick="openModal('snail-whipp')">
+                            <i class="fas fa-eye"></i> Quick View
+                        </button>
+                    </div>
+                </div>
+                <div class="card-info">
+                    <h3>Snail Whipp Lumina Bar Soap</h3>
+                    <p class="card-subtitle">Snail Serum & Glutathione</p>
+                    <span class="card-price">₱ 350.00</span>
+                    <div class="card-actions">
+                        <button class="btn-add-cart" onclick="addToCart('Snail Whipp Lumina Bar Soap', 350)">
+                            <i class="fas fa-shopping-bag"></i> Add to Cart
+                        </button>
+                        <button class="btn-buy-now" onclick="buyNow('Snail Whipp Lumina Bar Soap', 350)">
+                            Buy Now
+                        </button>
+                    </div>
+                </div>
+            </article>
+
+            <article class="product-card">
+                <div class="card-image">
+                    <img src="images/bleachingsoap1.jpg" alt="Milktea Bleaching Soap">
+                    <div class="card-overlay">
+                        <button class="btn-quick-view" onclick="openModal('milktea-bleaching')">
+                            <i class="fas fa-eye"></i> Quick View
+                        </button>
+                    </div>
+                </div>
+                <div class="card-info">
+                    <h3>Milktea Bleaching Soap</h3>
+                    <p class="card-subtitle">Milk & Tea Tree Extracts</p>
+                    <span class="card-price">₱ 150.00</span>
+                    <div class="card-actions">
+                        <button class="btn-add-cart" onclick="addToCart('Milktea Bleaching Soap', 150)">
+                            <i class="fas fa-shopping-bag"></i> Add to Cart
+                        </button>
+                        <button class="btn-buy-now" onclick="buyNow('Milktea Bleaching Soap', 150)">
+                            Buy Now
+                        </button>
+                    </div>
+                </div>
+            </article>
+
+            <article class="product-card">
+                <div class="card-image">
+                    <img src="images/milkysalt.jpg" alt="Milky Salt Scrub">
+                    <div class="card-overlay">
+                        <button class="btn-quick-view" onclick="openModal('milky-salt')">
+                            <i class="fas fa-eye"></i> Quick View
+                        </button>
+                    </div>
+                </div>
+                <div class="card-info">
+                    <h3>Milky Salt Scrub</h3>
+                    <p class="card-subtitle">Sea Salt & Milk Essence</p>
+                    <span class="card-price">₱ 300.00</span>
+                    <div class="card-actions">
+                        <button class="btn-add-cart" onclick="addToCart('Milky Salt Scrub', 300)">
+                            <i class="fas fa-shopping-bag"></i> Add to Cart
+                        </button>
+                        <button class="btn-buy-now" onclick="buyNow('Milky Salt Scrub', 300)">
+                            Buy Now
+                        </button>
+                    </div>
+                </div>
+            </article>
+
+        </div>
+    </main>
+    <div class="cart-sidebar" id="cartSidebar">
+        <div class="cart-header">
+            <h3><i class="fas fa-shopping-bag"></i> Your Cart</h3>
+            <button class="cart-close" onclick="toggleCart()">
+                <i class="fas fa-times"></i>
+            </button>
+        </div>
+        <div class="cart-items" id="cartItems">
+        </div>
+        <div class="cart-footer">
+            <div class="cart-total">
+                <span>Total</span>
+                <span id="cartTotal">₱ 0.00</span>
+            </div>
+            <button class="btn-checkout" onclick="checkout()">
+                Proceed to Checkout
+            </button>
+        </div>
+    </div>
+    <div class="modal-overlay" id="modalOverlay" onclick="closeModal()">
+        <div class="modal-content" onclick="event.stopPropagation()">
+            <button class="modal-close" onclick="closeModal()">
+                <i class="fas fa-times"></i>
+            </button>
+            
+            <div class="modal-body" id="modalBody">
+            </div>
+        </div>
+    </div>
+
+    <div class="toast" id="toast">
+        <i class="fas fa-check-circle"></i>
+        <span id="toast-message">Added to cart!</span>
+    </div>
+
+    <footer>
+        <div class="footer-content">
+            <p>This Website is for Academic Purpsoses Only.</p>
+            <div class="social-links">
+                <a href="https://facebook.com" target="_blank" class="social-icon">
+                    <i class="fab fa-facebook-f"></i>
+                </a>
+                <a href="https://instagram.com" target="_blank" class="social-icon">
+                    <i class="fab fa-instagram"></i>
+                </a>
+                <a href="https://tiktok.com" target="_blank" class="social-icon">
+                    <i class="fab fa-tiktok"></i>
+                </a>
+                <a href="https://youtube.com" target="_blank" class="social-icon">
+                    <i class="fab fa-youtube"></i>
+                </a>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        const products = {
+            'orange-soap': {
+                name: 'Beauty Vault Orange Soap',
+                subtitle: 'Kojic Acid-Infused Brightening Bar',
+                price: 95,
+                priceDisplay: '₱ 95.00',
+                images: ['images/soapo1.png'],
+                description: 'A Kojic acid-infused bar designed to brighten, exfoliate, and deeply cleanse the skin. Reduces dark spots, acne marks, and uneven skin tone while creating a rich lather to remove impurities.',
+                benefits: ['Lightens dark spots, freckles, and acne scars', 'Gently exfoliates for smoother skin', 'Deeply cleanses and removes impurities', 'Creates rich, luxurious lather', 'Evens out skin tone'],
+                volume: '135g'
+            },
+            'pink-soap': {
+                name: 'Beauty Vault Pink Soap',
+                subtitle: 'Gentle Maintenance Whitening Bar',
+                price: 95,
+                priceDisplay: '₱ 95.00',
+                images: ['images/soap pink.jpg'],
+                description: 'A gentle yet effective whitening kojic bar designed to maintain glowing skin, lighten dark spots, and prevent acne. Acts as a daily cleanser with mild exfoliation to keep skin soft, smooth, and radiant without harshness.',
+                benefits: ['Whitens skin and reduces pigmentation', 'Prevents acne and breakouts', 'Deep cleansing with anti-bacterial protection', 'Mild daily exfoliation', 'Anti-fungal protection'],
+                volume: '135g'
+            },
+            'snail-whipp': {
+                name: 'Snail Whipp Lumina Bar Soap',
+                subtitle: 'Premium Snail Serum & Glutathione Formula',
+                price: 350,
+                priceDisplay: '₱ 350.00',
+                images: ['images/snail1.png'],
+                description: 'A luxurious bar featuring Snail Serum for skin repair, Glutathione for 10x whitening effect, and Alpha Arbutin for dark spot removal and acne control. Deeply cleanses without stripping natural oils while providing intensive nourishment and hydration.',
+                benefits: ['Natural pinkish, glowing skin tone', 'Stimulates collagen and elastin production', 'Removes dark spots and controls acne', 'Intensive nourishment and hydration', 'Firmer, more youthful skin'],
+                volume: '120g'
+            },
+            'milktea-bleaching': {
+                name: 'Milktea Bleaching Soap',
+                subtitle: 'Milk & Tea Tree Extract Formula',
+                price: 150,
+                priceDisplay: '₱ 150.00',
+                images: ['images/bleachingsoap1.jpg'],
+                description: 'Formulated with milk and tea tree extracts, it works to fade dark spots, exfoliate dead skin, and provide a smoother, softer, and fairer complexion for both face and body.',
+                benefits: ['Lightens dark spots and evens skin tone', 'Exfoliates dead skin cells', 'Milk extracts for softer, smoother skin', 'Fairer complexion for face and body', 'Tea tree for gentle cleansing'],
+                volume: '135g'
+            },
+            'milky-salt': {
+                name: 'Milky Salt Scrub',
+                subtitle: 'Sea Salt & Milk Essence Exfoliant',
+                price: 300,
+                priceDisplay: '₱ 300.00',
+                images: ['images/milkysalt.jpg'],
+                description: 'A nourishing exfoliant designed to remove dead skin cells, brighten skin, and enhance natural circulation. Combines sea salt and milk essence to promote a youthful, glowing, and smooth complexion. Suitable for most skin types, particularly those seeking to lighten skin or treat uneven skin tone.',
+                benefits: ['Removes dead skin cells', 'Brightens and lightens skin tone', 'Enhances natural circulation', 'Promotes youthful, glowing skin', 'Treats uneven skin tone'],
+                volume: '120g'
+            }
+        };
+
+        let cart = [];
+        let currentSlide = 0;
+        let currentProduct = null;
+
+        function addToCart(productName, price) {
+            const existingItem = cart.find(item => item.name === productName);
+            
+            if (existingItem) {
+                existingItem.quantity++;
+            } else {
+                cart.push({
+                    name: productName,
+                    price: price,
+                    quantity: 1
+                });
+            }
+            
+            updateCart();
+            showToast(`${productName} added to cart!`);
+        }
+        function removeFromCart(index) {
+            cart.splice(index, 1);
+            updateCart();
+        } 
+        function updateQuantity(index, change) {
+            cart[index].quantity += change;
+            if (cart[index].quantity <= 0) {
+                removeFromCart(index);
+            } else {
+                updateCart();
+            }
+        }
+        function updateCart() {
+            const cartItems = document.getElementById('cartItems');
+            const cartCount = document.getElementById('cartCount');
+            const cartTotal = document.getElementById('cartTotal');
+            
+            const totalItems = cart.reduce((sum, item) => sum + item.quantity, 0);
+            const totalPrice = cart.reduce((sum, item) => sum + (item.price * item.quantity), 0);
+            
+            cartCount.textContent = totalItems;
+            cartTotal.textContent = `₱ ${totalPrice.toLocaleString()}.00`;
+            
+            if (cart.length === 0) {
+                cartItems.innerHTML = `
+                    <div class="cart-empty">
+                        <i class="fas fa-shopping-bag"></i>
+                        <p>Your cart is empty</p>
+                    </div>
+                `;
+            } else {
+                cartItems.innerHTML = cart.map((item, index) => `
+                    <div class="cart-item">
+                        <div class="cart-item-info">
+                            <h4>${item.name}</h4>
+                            <p>₱ ${item.price.toLocaleString()}.00</p>
+                        </div>
+                        <div class="cart-item-actions">
+                            <div class="quantity-control">
+                                <button onclick="updateQuantity(${index}, -1)">-</button>
+                                <span>${item.quantity}</span>
+                                <button onclick="updateQuantity(${index}, 1)">+</button>
+                            </div>
+                            <button class="btn-remove" onclick="removeFromCart(${index})">
+                                <i class="fas fa-trash"></i>
+                            </button>
+                        </div>
+                    </div>
+                `).join('');
+            }
+            
+            const cartToggle = document.getElementById('cartToggle');
+            cartToggle.classList.add('bounce');
+            setTimeout(() => cartToggle.classList.remove('bounce'), 300);
+        }
+
+        function toggleCart() {
+            document.getElementById('cartSidebar').classList.toggle('active');
+        }
+        function buyNow(productName, price) {
+            addToCart(productName, price);
+            toggleCart();
+            showToast(`Proceeding to checkout with ${productName}...`);
+        }
+        function checkout() {
+            if (cart.length === 0) {
+                showToast('Your cart is empty!');
+                return;
+            }
+            showToast('Redirecting to checkout...');
+        }
+        function openModal(productId) {
+            currentProduct = products[productId];
+            currentSlide = 0;
+            
+            const modal = document.getElementById('modalOverlay');
+            const body = document.getElementById('modalBody');
+            
+            body.innerHTML = `
+                <div class="modal-gallery">
+                    <div class="gallery-main">
+                        <img src="${currentProduct.images[0]}" id="modalImage" alt="${currentProduct.name}">
+                        <button class="gallery-nav prev" onclick="changeSlide(-1)">
+                            <i class="fas fa-chevron-left"></i>
+                        </button>
+                        <button class="gallery-nav next" onclick="changeSlide(1)">
+                            <i class="fas fa-chevron-right"></i>
+                        </button>
+                    </div>
+                    <div class="gallery-thumbs">
+                        ${currentProduct.images.map((img, i) => `
+                            <img src="${img}" class="thumb ${i === 0 ? 'active' : ''}" onclick="setSlide(${i})">
+                        `).join('')}
+                    </div>
+                </div>
+                <div class="modal-details">
+                    <h2>${currentProduct.name}</h2>
+                    <span class="modal-subtitle">${currentProduct.subtitle}</span>
+                    <p class="modal-desc">${currentProduct.description}</p>
+                    <div class="modal-benefits">
+                        <strong>Key Benefits</strong>
+                        <ul>
+                            ${currentProduct.benefits.map(b => `<li>${b}</li>`).join('')}
+                        </ul>
+                    </div>
+                    <p class="modal-volume">${currentProduct.volume}</p>
+                    <div class="modal-price">${currentProduct.priceDisplay}</div>
+                    <div class="modal-actions">
+                        <button class="btn-primary" onclick="addToCart('${currentProduct.name}', ${currentProduct.price}); closeModal();">
+                            <i class="fas fa-shopping-bag"></i> Add to Cart
+                        </button>
+                        <button class="btn-buy" onclick="buyNow('${currentProduct.name}', ${currentProduct.price}); closeModal();">
+                            Buy Now
+                        </button>
+                    </div>
+                </div>
+            `;
+            
+            modal.classList.add('active');
+            document.body.style.overflow = 'hidden';
+        }
+
+        function closeModal() {
+            document.getElementById('modalOverlay').classList.remove('active');
+            document.body.style.overflow = '';
+        }
+
+        function changeSlide(dir) {
+            currentSlide = (currentSlide + dir + currentProduct.images.length) % currentProduct.images.length;
+            updateGallery();
+        }
+
+        function setSlide(index) {
+            currentSlide = index;
+            updateGallery();
+        }
+
+        function updateGallery() {
+            document.getElementById('modalImage').src = currentProduct.images[currentSlide];
+            document.querySelectorAll('.thumb').forEach((t, i) => {
+                t.classList.toggle('active', i === currentSlide);
+            });
+        }
+        function showToast(msg) {
+            const toast = document.getElementById('toast');
+            document.getElementById('toast-message').textContent = msg;
+            toast.classList.add('show');
+            setTimeout(() => toast.classList.remove('show'), 3000);
+        }
+        document.addEventListener('keydown', (e) => {
+            if (e.key === 'Escape') {
+                closeModal();
+                document.getElementById('cartSidebar').classList.remove('active');
+            }
+        });
+        document.addEventListener('click', (e) => {
+            const cartSidebar = document.getElementById('cartSidebar');
+            const cartToggle = document.getElementById('cartToggle');
+            if (!cartSidebar.contains(e.target) && !cartToggle.contains(e.target)) {
+                cartSidebar.classList.remove('active');
+            }
+        });
+    </script>
+</body>
+</html>

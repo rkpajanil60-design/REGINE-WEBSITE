@@ -1,0 +1,334 @@
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lotion Collection — Beauty Vault</title>
+    <link rel="stylesheet" href="lotion.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;1,300;1,400&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+</head>
+<body>
+   
+    <div class="bg-image"></div>
+    <div class="bg-overlay"></div>
+    
+    <header>
+        <nav class="navbar">
+            <div class="logo">Beauty Vault</div>
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="product.html">Products</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <div class="top-products-layer">
+        <div class="products-header-nav">
+            
+            <a href="productsets.html" class="product-header-item">
+                <div class="header-item-image">
+                    <img src="images/bvpink2.png" alt="Product Sets">
+                </div>
+                <span class="header-item-name">Sets</span>
+            </a>
+
+            <a href="lotion.html" class="product-header-item">
+                <div class="header-item-image">
+                    <img src="images/luminalotion.jpg" alt="Lotion">
+                </div>
+                <span class="header-item-name">Lotion</span>
+            </a>
+
+            <a href="cream.html" class="product-header-item">
+                <div class="header-item-image">
+                    <img src="images/luminacream.jpg" alt="Cream">
+                </div>
+                <span class="header-item-name">Cream</span>
+            </a>
+
+            <a href="toner.html" class="product-header-item">
+                <div class="header-item-image">
+                    <img src="images/tonertwo.jpg" alt="Toner">
+                </div>
+                <span class="header-item-name">Toner</span>
+            </a>
+
+            <a href="serum.html" class="product-header-item">
+                <div class="header-item-image">
+                    <img src="images/serum1.jpg" alt="Serum">
+                </div>
+                <span class="header-item-name">Serum</span>
+            </a>
+
+            <a href="soap.html" class="product-header-item">
+                <div class="header-item-image">
+                    <img src="images/snailwhipp2.jpg" alt="Soap">
+                </div>
+                <span class="header-item-name">Soap</span>
+            </a>
+
+            <a href="capsules.html" class="product-header-item">
+                <div class="header-item-image">
+                    <img src="images/capsulesthree.jpg" alt="Capsules">
+                </div>
+                <span class="header-item-name">Capsules</span>
+            </a>
+
+            <a href="sunscreen.html" class="product-header-item">
+                <div class="header-item-image">
+                    <img src="images/sunscreenthree.jpg" alt="Sunscreen">
+                </div>
+                <span class="header-item-name">Sunscreen</span>
+            </a>
+
+            <a href="luminaglow.html" class="product-header-item">
+                <div class="header-item-image">
+                    <img src="images/luminaglow1.jpg" alt="Powder Drink">
+                </div>
+                <span class="header-item-name">Drink</span>
+            </a>
+
+        </div>
+    </div>
+    <section class="hero">
+        <h1>Lotion</h1>
+        <div class="section-divider"></div>
+        <p></p>
+    </section>
+
+    <main class="container">
+       
+        <div class="product-grid">
+            
+            <article class="product-card">
+                <div class="card-image">
+                    <img src="images/lumina1.png" alt="Lumina Glow Lotion">
+                    <div class="card-overlay">
+                        <button class="btn-quick-view" onclick="openModal('lumina-glow')">
+                            <i class="fas fa-eye"></i> Quick View
+                        </button>
+                    </div>
+                </div>
+                <div class="card-info">
+                    <h3>Lumina Glow Lotion</h3>
+                    <p class="card-subtitle">Brightening Body Serum</p>
+                    <span class="card-price">₱ 450.00</span>
+                    <div class="card-actions">
+                        <button class="btn-add-cart" onclick="addToCart('Lumina Glow Lotion', 450)">
+                            <i class="fas fa-shopping-bag"></i> Add to Cart
+                        </button>
+                        <button class="btn-buy-now" onclick="buyNow('Lumina Glow Lotion', 450)">
+                            Buy Now
+                        </button>
+                    </div>
+                </div>
+            </article>
+
+           
+            <article class="product-card">
+                <div class="card-image">
+                    <img src="images/gluta milk.jpg" alt="Glutamilk Whitening Lotion">
+                    <div class="card-overlay">
+                        <button class="btn-quick-view" onclick="openModal('glutamilk')">
+                            <i class="fas fa-eye"></i> Quick View
+                        </button>
+                    </div>
+                </div>
+                <div class="card-info">
+                    <h3>Glutamilk Whitening Lotion</h3>
+                    <p class="card-subtitle">SPF 45 Protection</p>
+                    <span class="card-price">₱ 250.00</span>
+                    <div class="card-actions">
+                        <button class="btn-add-cart" onclick="addToCart('Glutamilk Whitening Lotion', 250)">
+                            <i class="fas fa-shopping-bag"></i> Add to Cart
+                        </button>
+                        <button class="btn-buy-now" onclick="buyNow('Glutamilk Whitening Lotion', 250)">
+                            Buy Now
+                        </button>
+                    </div>
+                </div>
+            </article>
+
+        </div>
+    </main>
+
+    <div class="cart-sidebar" id="cartSidebar">
+        <div class="cart-header">
+            <h3><i class="fas fa-shopping-bag"></i> Your Cart</h3>
+            <button class="cart-close" onclick="toggleCart()">
+                <i class="fas fa-times"></i>
+            </button>
+        </div>
+        <div class="cart-items" id="cartItems">
+          
+        </div>
+        <div class="cart-footer">
+            <div class="cart-total">
+                <span>Total</span>
+                <span id="cartTotal">₱ 0.00</span>
+            </div>
+            <button class="btn-checkout" onclick="checkout()">
+                Proceed to Checkout
+            </button>
+        </div>
+    </div>
+    <div class="modal-overlay" id="modalOverlay" onclick="closeModal()">
+        <div class="modal-content" onclick="event.stopPropagation()">
+            <button class="modal-close" onclick="closeModal()">
+                <i class="fas fa-times"></i>
+            </button>
+            
+            <div class="modal-body" id="modalBody">
+                
+            </div>
+        </div>
+    </div>
+
+    
+    <div class="toast" id="toast">
+        <i class="fas fa-check-circle"></i>
+        <span id="toast-message">Added to cart!</span>
+    </div>
+
+    <footer>
+        <div class="footer-content">
+            <p>This Website is for Academic Purpsoses Only.</p>
+            <div class="social-links">
+                <a href="https://facebook.com" target="_blank" class="social-icon">
+                    <i class="fab fa-facebook-f"></i>
+                </a>
+                <a href="https://instagram.com" target="_blank" class="social-icon">
+                    <i class="fab fa-instagram"></i>
+                </a>
+                <a href="https://tiktok.com" target="_blank" class="social-icon">
+                    <i class="fab fa-tiktok"></i>
+                </a>
+                <a href="https://youtube.com" target="_blank" class="social-icon">
+                    <i class="fab fa-youtube"></i>
+                </a>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        
+        const products = {
+            'lumina-glow': {
+                name: 'Lumina Glow Lotion',
+                subtitle: 'Brightening Body Serum with SPF 10',
+                price: 450,
+                priceDisplay: '₱ 450.00',
+                images: ['images/lumina1.png', 'images/lumina2.png'],
+                description: 'A premium, lightweight body serum designed to illuminate, hydrate, and brighten skin for a radiant, velvety-smooth finish. Featuring SPF 10 for light sun protection.',
+                benefits: ['Deeply locks in moisture', 'Illuminates and brightens skin', 'Lightweight, non-greasy formula', 'Perfect for daily use'],
+                volume: '250ml'
+            },
+            'glutamilk': {
+                name: 'Glutamilk Whitening Lotion',
+                subtitle: 'SPF 45 Whitening & Protection',
+                price: 250,
+                priceDisplay: '₱ 250.00',
+                images: ['images/gluta milk.jpg'],
+                description: 'A non-greasy, moisturizing, and skin-brightening lotion that combines glutathione and milk essence to reduce dark spots and enhance radiance. Suitable for all skin types.',
+                benefits: ['Whitens and brightens skin', 'Hydrates deeply', 'SPF 45 sun protection', 'Improves skin texture'],
+                volume: '250ml'
+            }
+        };
+
+        function openModal(productId) {
+            currentProduct = products[productId];
+            currentSlide = 0;
+            
+            const modal = document.getElementById('modalOverlay');
+            const body = document.getElementById('modalBody');
+            
+            body.innerHTML = `
+                <div class="modal-gallery">
+                    <div class="gallery-main">
+                        <img src="${currentProduct.images[0]}" id="modalImage" alt="${currentProduct.name}">
+                        <button class="gallery-nav prev" onclick="changeSlide(-1)">
+                            <i class="fas fa-chevron-left"></i>
+                        </button>
+                        <button class="gallery-nav next" onclick="changeSlide(1)">
+                            <i class="fas fa-chevron-right"></i>
+                        </button>
+                    </div>
+                    <div class="gallery-thumbs">
+                        ${currentProduct.images.map((img, i) => `
+                            <img src="${img}" class="thumb ${i === 0 ? 'active' : ''}" onclick="setSlide(${i})">
+                        `).join('')}
+                    </div>
+                </div>
+                <div class="modal-details">
+                    <h2>${currentProduct.name}</h2>
+                    <span class="modal-subtitle">${currentProduct.subtitle}</span>
+                    <p class="modal-desc">${currentProduct.description}</p>
+                    <div class="modal-benefits">
+                        <strong>Key Benefits</strong>
+                        <ul>
+                            ${currentProduct.benefits.map(b => `<li>${b}</li>`).join('')}
+                        </ul>
+                    </div>
+                    <p class="modal-volume">${currentProduct.volume}</p>
+                    <div class="modal-price">${currentProduct.priceDisplay}</div>
+                    <div class="modal-actions">
+                        <button class="btn-primary" onclick="addToCart('${currentProduct.name}', ${currentProduct.price}); closeModal();">
+                            <i class="fas fa-shopping-bag"></i> Add to Cart
+                        </button>
+                        <button class="btn-buy" onclick="buyNow('${currentProduct.name}', ${currentProduct.price}); closeModal();">
+                            Buy Now
+                        </button>
+                    </div>
+                </div>
+            `;
+            
+            modal.classList.add('active');
+            document.body.style.overflow = 'hidden';
+        }
+
+        function closeModal() {
+            document.getElementById('modalOverlay').classList.remove('active');
+            document.body.style.overflow = '';
+        }
+
+        function changeSlide(dir) {
+            currentSlide = (currentSlide + dir + currentProduct.images.length) % currentProduct.images.length;
+            updateGallery();
+        }
+
+        function setSlide(index) {
+            currentSlide = index;
+            updateGallery();
+        }
+
+        function updateGallery() {
+            document.getElementById('modalImage').src = currentProduct.images[currentSlide];
+            document.querySelectorAll('.thumb').forEach((t, i) => {
+                t.classList.toggle('active', i === currentSlide);
+            });
+        }
+        function showToast(msg) {
+            const toast = document.getElementById('toast');
+            document.getElementById('toast-message').textContent = msg;
+            toast.classList.add('show');
+            setTimeout(() => toast.classList.remove('show'), 3000);
+        }
+        document.addEventListener('keydown', (e) => {
+            if (e.key === 'Escape') {
+                closeModal();
+                document.getElementById('cartSidebar').classList.remove('active');
+            }
+        });
+        document.addEventListener('click', (e) => {
+            const cartSidebar = document.getElementById('cartSidebar');
+            const cartToggle = document.getElementById('cartToggle');
+            if (!cartSidebar.contains(e.target) && !cartToggle.contains(e.target)) {
+                cartSidebar.classList.remove('active');
+            }
+        });
+    </script>
+</body>
+</html>

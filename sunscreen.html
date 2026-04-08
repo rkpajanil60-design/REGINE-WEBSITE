@@ -1,0 +1,461 @@
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sunscreen Collection — Beauty Vault</title>
+    <link rel="stylesheet" href="cream.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;1,300;1,400&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+</head>
+<body> 
+    <div class="bg-image"></div>
+    <div class="bg-overlay"></div>
+    
+    <header>
+        <nav class="navbar">
+            <div class="logo">Beauty Vault</div>
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="product.html">Products</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <div class="top-products-layer">
+        <div class="products-header-nav">
+            
+            <a href="productsets.html" class="product-header-item">
+                <div class="header-item-image">
+                    <img src="images/bvpink2.png" alt="Product Sets">
+                </div>
+                <span class="header-item-name">Sets</span>
+            </a>
+
+            <a href="lotion.html" class="product-header-item">
+                <div class="header-item-image">
+                    <img src="images/luminalotion.jpg" alt="Lotion">
+                </div>
+                <span class="header-item-name">Lotion</span>
+            </a>
+
+            <a href="cream.html" class="product-header-item">
+                <div class="header-item-image">
+                    <img src="images/luminacream.jpg" alt="Cream">
+                </div>
+                <span class="header-item-name">Cream</span>
+            </a>
+
+            <a href="toner.html" class="product-header-item">
+                <div class="header-item-image">
+                    <img src="images/tonertwo.jpg" alt="Toner">
+                </div>
+                <span class="header-item-name">Toner</span>
+            </a>
+
+            <a href="serum.html" class="product-header-item">
+                <div class="header-item-image">
+                    <img src="images/serum1.jpg" alt="Serum">
+                </div>
+                <span class="header-item-name">Serum</span>
+            </a>
+
+            <a href="soap.html" class="product-header-item">
+                <div class="header-item-image">
+                    <img src="images/snailwhipp2.jpg" alt="Soap">
+                </div>
+                <span class="header-item-name">Soap</span>
+            </a>
+
+            <a href="capsules.html" class="product-header-item">
+                <div class="header-item-image">
+                    <img src="images/capsulesthree.jpg" alt="Capsules">
+                </div>
+                <span class="header-item-name">Capsules</span>
+            </a>
+
+            <a href="sunscreen.html" class="product-header-item active">
+                <div class="header-item-image">
+                    <img src="images/sunscreenthree.jpg" alt="Sunscreen">
+                </div>
+                <span class="header-item-name">Sunscreen</span>
+            </a>
+
+            <a href="luminaglow.html" class="product-header-item">
+                <div class="header-item-image">
+                    <img src="images/luminaglow1.jpg" alt="Powder Drink">
+                </div>
+                <span class="header-item-name">Drink</span>
+            </a>
+
+        </div>
+    </div>
+    <section class="hero">
+        <h1>Sunscreen</h1>
+        <div class="section-divider"></div>
+        <p></p>
+    </section>
+
+    <main class="container">
+        
+        <div class="product-grid">
+        
+            <article class="product-card">
+                <div class="card-image">
+                    <img src="images/sunscreen1.png" alt="Premium Hydrating Sunscreen">
+                    <div class="card-overlay">
+                        <button class="btn-quick-view" onclick="openModal('sunscreen-hydrating')">
+                            <i class="fas fa-eye"></i> Quick View
+                        </button>
+                    </div>
+                </div>
+                <div class="card-info">
+                    <h3>Premium Hydrating Sunscreen SPF 50</h3>
+                    <p class="card-subtitle">Lightweight & Non-Greasy</p>
+                    <span class="card-price">₱ 350.00</span>
+                    <div class="card-actions">
+                        <button class="btn-add-cart" onclick="addToCart('Premium Hydrating Sunscreen SPF 50', 199)">
+                            <i class="fas fa-shopping-bag"></i> Add to Cart
+                        </button>
+                        <button class="btn-buy-now" onclick="buyNow('Premium Hydrating Sunscreen SPF 50', 199)">
+                            Buy Now
+                        </button>
+                    </div>
+                </div>
+            </article>
+
+           
+            <article class="product-card">
+                <div class="card-image">
+                    <img src="images/tinted1.png" alt="Tinted Sunscreen">
+                    <div class="card-overlay">
+                        <button class="btn-quick-view" onclick="openModal('sunscreen-tinted')">
+                            <i class="fas fa-eye"></i> Quick View
+                        </button>
+                    </div>
+                </div>
+                <div class="card-info">
+                    <h3>Premium Tinted Sunscreen SPF 45</h3>
+                    <p class="card-subtitle">Foundation & Sun Protection</p>
+                    <span class="card-price">₱ 280.00</span>
+                    <div class="card-actions">
+                        <button class="btn-add-cart" onclick="addToCart('Premium Tinted Sunscreen SPF 45', 280)">
+                            <i class="fas fa-shopping-bag"></i> Add to Cart
+                        </button>
+                        <button class="btn-buy-now" onclick="buyNow('Premium Tinted Sunscreen SPF 45', 280)">
+                            Buy Now
+                        </button>
+                    </div>
+                </div>
+            </article>
+
+           
+            <article class="product-card">
+                <div class="card-image">
+                    <img src="images/aldaw1.png" alt="Adlaw Defense Sheer Sunscreen">
+                    <div class="card-overlay">
+                        <button class="btn-quick-view" onclick="openModal('sunscreen-adlaw')">
+                            <i class="fas fa-eye"></i> Quick View
+                        </button>
+                    </div>
+                </div>
+                <div class="card-info">
+                    <h3>Adlaw Defense Sheer Sunscreen SPF 50</h3>
+                    <p class="card-subtitle">Non-Toxic & Sheer Finish</p>
+                    <span class="card-price">₱ 250.00</span>
+                    <div class="card-actions">
+                        <button class="btn-add-cart" onclick="addToCart('Adlaw Defense Sheer Sunscreen SPF 50', 250)">
+                            <i class="fas fa-shopping-bag"></i> Add to Cart
+                        </button>
+                        <button class="btn-buy-now" onclick="buyNow('Adlaw Defense Sheer Sunscreen SPF 50', 250)">
+                            Buy Now
+                        </button>
+                    </div>
+                </div>
+            </article>
+
+        </div>
+    </main>
+
+    
+    <div class="cart-sidebar" id="cartSidebar">
+        <div class="cart-header">
+            <h3><i class="fas fa-shopping-bag"></i> Your Cart</h3>
+            <button class="cart-close" onclick="toggleCart()">
+                <i class="fas fa-times"></i>
+            </button>
+        </div>
+        <div class="cart-items" id="cartItems">
+          
+        </div>
+        <div class="cart-footer">
+            <div class="cart-total">
+                <span>Total</span>
+                <span id="cartTotal">₱ 0.00</span>
+            </div>
+            <button class="btn-checkout" onclick="checkout()">
+                Proceed to Checkout
+            </button>
+        </div>
+    </div>
+    <div class="modal-overlay" id="modalOverlay" onclick="closeModal()">
+        <div class="modal-content" onclick="event.stopPropagation()">
+            <button class="modal-close" onclick="closeModal()">
+                <i class="fas fa-times"></i>
+            </button>
+            
+            <div class="modal-body" id="modalBody">
+            
+            </div>
+        </div>
+    </div>
+
+
+    <div class="toast" id="toast">
+        <i class="fas fa-check-circle"></i>
+        <span id="toast-message">Added to cart!</span>
+    </div>
+
+    <footer>
+        <div class="footer-content">
+            <p>This Website is for Academic Purpsoses Only.</p>
+            <div class="social-links">
+                <a href="#" class="social-icon"><i class="fab fa-facebook-f"></i></a>
+                <a href="#" class="social-icon"><i class="fab fa-instagram"></i></a>
+                <a href="#" class="social-icon"><i class="fab fa-tiktok"></i></a>
+                <a href="#" class="social-icon"><i class="fab fa-youtube"></i></a>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        const products = {
+            'sunscreen-hydrating': {
+                name: 'Premium Hydrating Sunscreen SPF 50',
+                subtitle: 'Lightweight, Non-Greasy Protection',
+                price: 199,
+                priceDisplay: '₱ 199.00',
+                images: ['images/sunscreen1.png','images/sunscreen2.png'],
+                description: 'A lightweight, non-greasy sun protection cream formulated to shield the skin from harmful UVA and UVB rays. Water-based formula absorbs easily with no white cast, leaving skin hydrated and protected.',
+                benefits: ['SPF 50 PA+++ protection', 'Non-greasy feel', 'No white cast', 'Fast absorbing', 'Hydrating formula', 'Water-based'],
+                volume: '50g'
+            },
+            'sunscreen-tinted': {
+                name: 'Premium Tinted Sunscreen SPF 45',
+                subtitle: 'Foundation + Sun Protection',
+                price: 280,
+                priceDisplay: '₱ 280.00',
+                images: ['images/tinted1.png'],
+                description: 'This lightweight, non-greasy formula offers superior sun protection while enhancing your natural beauty with medium, buildable coverage. Fights uneven skin tone and sun damaged skin while providing a natural finish.',
+                benefits: ['SPF 45 protection', 'Medium buildable coverage', 'Evens skin tone', 'Natural finish', 'Lightweight texture', 'Non-greasy'],
+                volume: '50g'
+            },
+            'sunscreen-adlaw': {
+                name: 'Adlaw Defense Sheer Sunscreen SPF 50',
+                subtitle: 'Non-Toxic Sheer Protection',
+                price: 250,
+                priceDisplay: '₱ 250.00',
+                images: ['images/aldaw1.png','images/aldaw2.png'],
+                description: 'Part of the Glass Skin Essentials line, this non-toxic sheer sunscreen provides high-level SPF 50 protection without harmful chemicals. Leaves a sheer, natural finish perfect for daily wear.',
+                benefits: ['SPF 50 protection', 'Non-toxic formula', 'Sheer finish', 'Glass skin effect', 'Daily wear suitable', 'Chemical-free'],
+                volume: '50g'
+            }
+        };
+
+        let cart = [];
+        let currentSlide = 0;
+        let currentProduct = null;
+
+        function addToCart(productName, price) {
+            const existingItem = cart.find(item => item.name === productName);
+            
+            if (existingItem) {
+                existingItem.quantity++;
+            } else {
+                cart.push({
+                    name: productName,
+                    price: price,
+                    quantity: 1
+                });
+            }
+            
+            updateCart();
+            showToast(`${productName} added to cart!`);
+        }
+
+        function removeFromCart(index) {
+            cart.splice(index, 1);
+            updateCart();
+        }
+
+        function updateQuantity(index, change) {
+            cart[index].quantity += change;
+            if (cart[index].quantity <= 0) {
+                removeFromCart(index);
+            } else {
+                updateCart();
+            }
+        }
+
+        function updateCart() {
+            const cartItems = document.getElementById('cartItems');
+            const cartCount = document.getElementById('cartCount');
+            const cartTotal = document.getElementById('cartTotal');
+            
+            const totalItems = cart.reduce((sum, item) => sum + item.quantity, 0);
+            const totalPrice = cart.reduce((sum, item) => sum + (item.price * item.quantity), 0);
+            
+            cartCount.textContent = totalItems;
+            cartTotal.textContent = `₱ ${totalPrice.toLocaleString()}.00`;
+            
+            if (cart.length === 0) {
+                cartItems.innerHTML = `
+                    <div class="cart-empty">
+                        <i class="fas fa-shopping-bag"></i>
+                        <p>Your cart is empty</p>
+                    </div>
+                `;
+            } else {
+                cartItems.innerHTML = cart.map((item, index) => `
+                    <div class="cart-item">
+                        <div class="cart-item-info">
+                            <h4>${item.name}</h4>
+                            <p>₱ ${item.price.toLocaleString()}.00</p>
+                        </div>
+                        <div class="cart-item-actions">
+                            <div class="quantity-control">
+                                <button onclick="updateQuantity(${index}, -1)">-</button>
+                                <span>${item.quantity}</span>
+                                <button onclick="updateQuantity(${index}, 1)">+</button>
+                            </div>
+                            <button class="btn-remove" onclick="removeFromCart(${index})">
+                                <i class="fas fa-trash"></i>
+                            </button>
+                        </div>
+                    </div>
+                `).join('');
+            }
+            
+            const cartToggle = document.getElementById('cartToggle');
+            cartToggle.classList.add('bounce');
+            setTimeout(() => cartToggle.classList.remove('bounce'), 300);
+        }
+
+        function toggleCart() {
+            document.getElementById('cartSidebar').classList.toggle('active');
+        }
+
+        function buyNow(productName, price) {
+            addToCart(productName, price);
+            toggleCart();
+            showToast(`Proceeding to checkout with ${productName}...`);
+        }
+
+        function checkout() {
+            if (cart.length === 0) {
+                showToast('Your cart is empty!');
+                return;
+            }
+            showToast('Redirecting to checkout...');
+        }
+
+        function openModal(productId) {
+            currentProduct = products[productId];
+            currentSlide = 0;
+            
+            const modal = document.getElementById('modalOverlay');
+            const body = document.getElementById('modalBody');
+            
+            body.innerHTML = `
+                <div class="modal-gallery">
+                    <div class="gallery-main">
+                        <img src="${currentProduct.images[0]}" id="modalImage" alt="${currentProduct.name}">
+                        <button class="gallery-nav prev" onclick="changeSlide(-1)">
+                            <i class="fas fa-chevron-left"></i>
+                        </button>
+                        <button class="gallery-nav next" onclick="changeSlide(1)">
+                            <i class="fas fa-chevron-right"></i>
+                        </button>
+                    </div>
+                    <div class="gallery-thumbs">
+                        ${currentProduct.images.map((img, i) => `
+                            <img src="${img}" class="thumb ${i === 0 ? 'active' : ''}" onclick="setSlide(${i})">
+                        `).join('')}
+                    </div>
+                </div>
+                <div class="modal-details">
+                    <h2>${currentProduct.name}</h2>
+                    <span class="modal-subtitle">${currentProduct.subtitle}</span>
+                    <p class="modal-desc">${currentProduct.description}</p>
+                    <div class="modal-benefits">
+                        <strong>Key Benefits</strong>
+                        <ul>
+                            ${currentProduct.benefits.map(b => `<li>${b}</li>`).join('')}
+                        </ul>
+                    </div>
+                    <p class="modal-volume">${currentProduct.volume}</p>
+                    <div class="modal-price">${currentProduct.priceDisplay}</div>
+                    <div class="modal-actions">
+                        <button class="btn-primary" onclick="addToCart('${currentProduct.name}', ${currentProduct.price}); closeModal();">
+                            <i class="fas fa-shopping-bag"></i> Add to Cart
+                        </button>
+                        <button class="btn-buy" onclick="buyNow('${currentProduct.name}', ${currentProduct.price}); closeModal();">
+                            Buy Now
+                        </button>
+                    </div>
+                </div>
+            `;
+            
+            modal.classList.add('active');
+            document.body.style.overflow = 'hidden';
+        }
+
+        function closeModal() {
+            document.getElementById('modalOverlay').classList.remove('active');
+            document.body.style.overflow = '';
+        }
+
+        function changeSlide(dir) {
+            currentSlide = (currentSlide + dir + currentProduct.images.length) % currentProduct.images.length;
+            updateGallery();
+        }
+
+        function setSlide(index) {
+            currentSlide = index;
+            updateGallery();
+        }
+
+        function updateGallery() {
+            document.getElementById('modalImage').src = currentProduct.images[currentSlide];
+            document.querySelectorAll('.thumb').forEach((t, i) => {
+                t.classList.toggle('active', i === currentSlide);
+            });
+        }
+
+        function showToast(msg) {
+            const toast = document.getElementById('toast');
+            document.getElementById('toast-message').textContent = msg;
+            toast.classList.add('show');
+            setTimeout(() => toast.classList.remove('show'), 3000);
+        }
+
+        document.addEventListener('keydown', (e) => {
+            if (e.key === 'Escape') {
+                closeModal();
+                document.getElementById('cartSidebar').classList.remove('active');
+            }
+        });
+
+        document.addEventListener('click', (e) => {
+            const cartSidebar = document.getElementById('cartSidebar');
+            const cartToggle = document.getElementById('cartToggle');
+            if (!cartSidebar.contains(e.target) && !cartToggle.contains(e.target)) {
+                cartSidebar.classList.remove('active');
+            }
+        });
+    </script>
+</body>
+</html>
